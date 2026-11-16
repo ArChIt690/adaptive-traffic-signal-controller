@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Logisim downloads (see README "Verification"): too big for git, fetch them yourself.
+# The small sources in tools/ (PortDump*.java, spike files) stay: docs/logisim-notes.md cites them.
+tools/*.jar
+tools/*.class
+tools/evolution-*/
+
+# agent working notes
+.superpowers/
